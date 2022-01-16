@@ -21,7 +21,6 @@ import {
     updateMyStatus
 } from "../../State-management/ProfileSlice";
 import {createNewConversation} from "../../Redux-middleware/initMessengerSocketMiddleware";
-import Loader from "../../Common/Loader";
 import CircularProgress from "@mui/material/CircularProgress";
 
 const RootProfile = () => {
